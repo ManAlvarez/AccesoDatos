@@ -1,0 +1,27 @@
+MySQL utilizando VirtualBox
+Importar OVA e preparar MySQL
+
+    Descargamos a OVA da seguinte dirección: https://drive.google.com/open?id=1Sz7O1GesonjVFL9HHDjvOyHnaM_hhpaD
+
+    Abrimos VirtualBox (senón o tedes descargádeo e instaládeo). No menú principal seleccionamos Archivo> Importar Servicio virtualizado.
+
+    Seleccionades a OVA que acabades de descargar e premede en Seguinte.
+
+    Na seguinte ventana podedes cambiar o directorio donde se garda a máquina virtual. O resto podedes deixalo igual e premer en Importar. Esperade a que acabe de importar.
+
+    A continuación seleccionades Archivo>Administrador de red anfitrión.
+
+    Creades unha nova rede Anfitrión coa seguinte dirección de rede: 192.168.56.0/24 e saídes desa ventana premendo en Cerrar. Mellor deshabilitade o servizo DHCP.
+
+    Agora seleccionades a máquina que importamos anteriormente e co botón dereito premedes en Configuración.
+
+    Ides a pestaña de Red e comprobades que o Adaptador1 éstá conectado a Adaptador sólo-anfitrión e en nombre tedes a rede que creastes no paso 6. Premedes en Aceptar.
+
+    O usuario que podedes utilizar nesta máquina (é unha Debian) e “root” co contrasinal “abc123.”.
+
+    Para comprobar o funcionamento correcto da máquina escribides na barra de direccións dun navegador web a seguinte dirección: “192.168.56.101/phpmyadmin”. Deberíavos aparecer a páxina de logueo de phpmyadmin.
+
+    Para loguearvos usades o usuario “userhibernate” e o contrasinal “abc123.”.
+
+    Se queredes conectarvos a base de datos dende outra aplicación (por exemplo as que vos realicedes ou as de exemplo), usades o usuario e contrasinal do apartado anterior. O porto que se utiliza é o 3306.
+

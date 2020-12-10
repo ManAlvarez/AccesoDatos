@@ -1,0 +1,51 @@
+{
+  "tiendas": [
+    {
+      "nombre": "Mango",
+      "ciudad": "Barcelona",
+      "productos": [
+        {
+          "identificador": 1,
+          "descripcion": "Camisa corta",
+          "precio": 6.95,
+          "cantidade": 100
+        }
+      ],
+      "empleados": []
+    },
+    {
+      "nombre": "Amazon",
+      "ciudad": "A Coru�a",
+      "productos": [
+        {
+          "identificador": 1,
+          "descripcion": "Libro pintar",
+          "precio": 3.95,
+          "cantidade": 1000
+        }
+      ],
+      "empleados": [
+        {
+          "nome": "Manuel",
+          "apellidos": "Alvarez"
+        },
+        {
+          "nome": "Victor",
+          "apellidos": "Casta�o"
+        }
+      ]
+    }
+  ],
+  "clientes": [
+    {
+      "nombre": "Jose",
+      "apellidos": "Castro",
+      "email": "jose@gmail.com"
+    },
+    {
+      "nombre": "Santiago",
+      "apellidos": "Camafeita",
+      "email": "santiago@gmail.com"
+    }
+  ]
+}

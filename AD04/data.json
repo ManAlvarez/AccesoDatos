@@ -1,0 +1,30 @@
+[
+  {
+    "id_producto": 1,
+    "nombre_producto": "A",
+    "descripcion_producto": "A",
+    "stock_tiendas": [
+      {
+        "id_tienda": 4,
+        "nombre_tienda": "A",
+        "provincia_tienda": "Lugo",
+        "ciudad_tienda": "A",
+        "stock": 50000
+      }
+    ]
+  },
+  {
+    "id_producto": 3,
+    "nombre_producto": "C",
+    "descripcion_producto": "C",
+    "stock_tiendas": [
+      {
+        "id_tienda": 4,
+        "nombre_tienda": "A",
+        "provincia_tienda": "Lugo",
+        "ciudad_tienda": "A",
+        "stock": 50000
+      }
+    ]
+  }
+]
